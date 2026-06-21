@@ -1,0 +1,15 @@
+# Secrets - NEVER commit
+.env
+*.key
+secrets/
+
+# Real data - NEVER commit
+data/real/
+*.csv
+!examples/*.csv
+
+# Python junk
+__pycache__/
+*.pyc
+.venv/
+venv/
